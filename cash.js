@@ -36,6 +36,6 @@ C.getChange = function (totalPayable, cashPaid) {
 };
 
 
-console.log("the change is ", C.getChange(256, 300));
+console.lg("the change is ", C.getChange(256, 300));
 
 module.exports = C;  

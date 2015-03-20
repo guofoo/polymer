@@ -32,7 +32,7 @@ C.getChange = function (totalPayable, cashPaid) {
       }
     }
  
-    return changes
+    return change
 };
 
 

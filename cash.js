@@ -19,7 +19,7 @@ C.getChange = function (totalPayable, cashPaid) {
     for(var i=0; i<length; i++)
     {
       var coin = C.coins[i];
-      if(remaining/coin >= 21)
+      if(remaining/coin >= 1)
       {
         var time = Math.floor(remaining/coin)
         console.log("number of coins needed", time);
